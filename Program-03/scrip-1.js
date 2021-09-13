@@ -1,4 +1,4 @@
-const quiz ={quiz1,quiz2,quiz3,quiz4};
+/*const quiz ={quiz1,quiz2,quiz3,quiz4};*/
 
 let quiz1 = {
     q1: "เมืองหลวงของไทยคือ",
@@ -24,12 +24,8 @@ let quiz4 = {
 };
 
 
-function player (name,quiz){
 
+for(let key in quiz1){
+    console.log(`key = ${quiz1.q1}`);
 }
-quiz.forEach(element => {
-    console.log(`q1 ${quiz.quiz1}`);
-    
-});
-
 
