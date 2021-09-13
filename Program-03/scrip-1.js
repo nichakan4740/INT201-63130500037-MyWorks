@@ -26,6 +26,6 @@ let quiz4 = {
 
 
 for(let key in quiz1){
-    console.log(`key = ${quiz1.q1}`);
+    console.log(`q1 = ${quiz1.q1}`);
 }
 
