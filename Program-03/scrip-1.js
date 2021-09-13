@@ -25,7 +25,11 @@ let quiz4 = {
 
 
 function player (name,quiz){
-    
+
 }
+quiz.forEach(element => {
+    console.log(`q1 ${quiz.quiz1}`);
+    
+});
 
 
