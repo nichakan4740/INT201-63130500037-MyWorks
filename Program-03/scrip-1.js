@@ -23,8 +23,9 @@ let quiz4 = {
     c: 1
 };
 
-let player = {
-    name : "nichakan"
 
-
+function player (name,quiz){
+    
 }
+
+
