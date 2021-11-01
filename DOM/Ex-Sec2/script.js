@@ -1,6 +1,8 @@
 //Group 1
+//กำหนดสีตัวอักษร
 var g1 = document.createAttribute('style');
 g1.value = 'color: Blue';
+//ใส่ข้อความ
 const Group1 = document.querySelector('#Section2 .group1');
 Group1.innerHTML = '<b>work hard play harder</b>';
 // Group1.textContent = '<b>work hard play harder</b>';
@@ -62,6 +64,6 @@ const gName = document.querySelector('#Section2 .group9');
 // gName.innerHTML = '<font color = red >Hello World</font>';
 gName.textContent = '<font color = red >Hello              World</font>';
 //Group 10
-const group = document.querySelector('#Section2 .group10');
+const group = document.querySelector('#Section2.group10');
 group.textContent = 'group 10!!';
 group.style.color = 'green';

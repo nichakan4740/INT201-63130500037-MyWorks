@@ -33,10 +33,17 @@ group10.innerHTML = 'shine dream smile';
 //Group 9
 let group9 = document.getElementsByClassName('group9')[0];
 group9.append('YOU NEVER CODING ALONE');
+//ใส่สี
+let Style = document.createAttribute('style');
+Style.value = 'color:green';
+group9.setAttributeNode(Style);
+
+
 
 //Group 8
 let textGroup8 = document.querySelector('.group8');
 textGroup8.textContent = 'ถ้าเธอใช่ใน if ต่อให้อีกกี่ else ก็หมดความหมาย';
+//ใส่สี
 let attStyle = document.createAttribute('style');
 attStyle.value = 'color:red';
 textGroup8.setAttributeNode(attStyle);
